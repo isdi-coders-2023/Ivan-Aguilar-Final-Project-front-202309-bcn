@@ -5,9 +5,9 @@ declare module "styled-components" {
     colors: {
       main: string;
       secondary: string;
-      dark: string;
-      light: string;
-      bright: string;
+      tertiary: string;
+      accent: string;
+      contour: string;
     };
 
     typography: {
