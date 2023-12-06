@@ -22,6 +22,7 @@ const GlobalStyle = createGlobalStyle`
   ul,li {
     list-style: none;
     margin: 0;
+    padding-left: 0;
   }
 
   img {
