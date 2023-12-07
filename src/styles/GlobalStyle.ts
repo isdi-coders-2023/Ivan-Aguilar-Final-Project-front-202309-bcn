@@ -17,6 +17,7 @@ const GlobalStyle = createGlobalStyle`
   h2,
   h3 {
     margin: 0;
+    font-size: 1.125rem;
   }
 
   ul,li {
