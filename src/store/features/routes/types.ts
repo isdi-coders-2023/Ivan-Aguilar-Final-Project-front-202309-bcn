@@ -13,5 +13,5 @@ export interface RouteStructure extends RouteDataStructure {
 }
 
 export interface RoutesStateStructure {
-  routes: RouteDataStructure[];
+  routes: RouteStructure[];
 }
