@@ -25,6 +25,10 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding-left: 0;
   }
+  
+  dl, dd {
+    margin: 0;
+  }
 
   img {
     max-width: 100%;
