@@ -1,4 +1,5 @@
 import { useAppSelector } from "../../store/hooks";
+import RouteCard from "../RouteCard/RouteCard";
 import RoutesListStyled from "./RoutesListStyled";
 
 const RoutesList = (): React.ReactElement => {
@@ -9,7 +10,9 @@ const RoutesList = (): React.ReactElement => {
   return (
     <RoutesListStyled>
       {routes.map((routes) => (
-        <li key={routes._id}></li>
+        <li key={routes._id}>
+          <RouteCard route={routes} />
+        </li>
       ))}
     </RoutesListStyled>
   );
