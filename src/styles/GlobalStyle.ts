@@ -24,6 +24,7 @@ const GlobalStyle = createGlobalStyle`
     list-style: none;
     margin: 0;
     padding-left: 0;
+    text-align: justify;
   }
   
   dl, dd {
