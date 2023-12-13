@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const RouteCardStyled = styled.article`
+  width: 266px;
+  height: 433px;
   .route-card {
-    width: 266px;
-    height: 433px;
     border-radius: 5px;
     background-color: ${({ theme }) => theme.colors.secondary};
     padding-top: 8px;
@@ -26,7 +26,7 @@ const RouteCardStyled = styled.article`
       justify-self: start;
       padding-left: 8px;
       padding-right: 15px;
-      padding-top: 15px;
+      padding-top: 10px;
     }
 
     &__details {
@@ -34,7 +34,6 @@ const RouteCardStyled = styled.article`
       padding-inline-end: 7px;
       font-size: 1.125rem;
       font-family: ${({ theme }) => theme.typography.secondary};
-      font-weight: bold;
     }
 
     &__detail {
@@ -43,6 +42,11 @@ const RouteCardStyled = styled.article`
     }
     .first-detail {
       margin-top: 6px;
+    }
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
     }
   }
 `;
