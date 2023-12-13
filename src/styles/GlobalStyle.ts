@@ -40,6 +40,9 @@ const GlobalStyle = createGlobalStyle`
     font: inherit;
     background-color:inherit ;
     cursor: pointer;
+    cursor: pointer;
+    width: 40px;
+    height: 40px; 
   }
 
   a {
