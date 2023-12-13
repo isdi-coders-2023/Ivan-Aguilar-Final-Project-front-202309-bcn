@@ -9,7 +9,7 @@ const mainTheme: DefaultTheme = {
     contour: "#000000",
   },
   typography: {
-    main: "DM Sans , sans-serif",
+    main: "DM Sans variable, sans-serif",
     secondary: "DM Serif Text, serif",
     tertiary: "Impact",
   },
