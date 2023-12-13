@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 const NavigationStyled = styled.ul`
-  .navigation {
-    width: 100%;
-    height: 55px;
-    background-color: ${({ theme }) => theme.colors.tertiary};
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-content: space-around;
-    align-items: flex-start;
+  width: 100%;
+  height: 55px;
+  background-color: ${({ theme }) => theme.colors.tertiary};
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: flex-start;
 
+  .navigation {
     &__button {
       display: inline-block;
       margin-top: 2px;

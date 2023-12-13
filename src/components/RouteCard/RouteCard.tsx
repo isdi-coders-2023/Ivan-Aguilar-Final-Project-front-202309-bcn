@@ -1,5 +1,6 @@
 import RouteCardStyled from "./RouteCardStyled";
 import { RouteDataStructure } from "../../store/features/routes/types";
+import Button from "../Button/Button";
 
 interface RouteCardProps {
   route: RouteDataStructure;
@@ -34,6 +35,28 @@ const RouteCard = ({
           <dt className="route-card__details">Price:</dt>
           <dd className="route-card__detail">{price}€ per person</dd>
         </dl>
+        <div className="buttons">
+          <Button
+            type="button"
+            children={
+              <img
+                className="button-map"
+                alt="icon of a map"
+                src="../public/images/map.webp"
+              />
+            }
+          />
+          <Button
+            type="button"
+            children={
+              <img
+                className="button-trash"
+                alt="icon of a trash"
+                src="../public/images/trash.webp"
+              />
+            }
+          />
+        </div>
       </div>
     </RouteCardStyled>
   );
